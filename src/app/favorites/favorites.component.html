@@ -1,0 +1,7 @@
+
+<div *ngIf="favouriteJobsArray.length > 0">
+    <app-list-item [jobs]="favouriteJobsArray" [favouritesPage]="true"></app-list-item>
+</div>
+<div style="width: 80%; margin: 0 auto;" *ngIf="favouriteJobsArray.length == 0 || !favouriteJobsArray">
+    <p>No Favorites list</p>
+</div>

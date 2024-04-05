@@ -1,0 +1,13 @@
+.companylogo{
+    width: 15%;
+}
+
+.a-ref a{
+    background-color: #01579b;
+    width: 12px;
+    color: white;
+    margin: 12px 9px;
+    border-radius: 25px;
+    padding: 4px 10px;
+
+}
